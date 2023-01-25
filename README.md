@@ -1,2 +1,3 @@
-# HSBS
-Hongik Spring Boot Study
+# Hongik Spring Boot Study
+- 홍익대학교의 세 학생이 모인 스프링 부트 스터디를 위한 레포지토리이다. 
+- 인프런에 무료 공개된 강의 <스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술>을 수강하고 간단한 프로젝트를 따라 만들어보기로 한다.
