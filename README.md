@@ -12,7 +12,12 @@
 - AOP 적용
 
 # 기술 스택
+- 언어 : java 11
+- 백엔드 : spring boot
+- 프론트 : Thymeleaf
+- DB : H2
+- 라이브러리 관리 : gradle
 강의에서 안내하는 방식을 따르되 개인의 기호에 따라 다른 스택을 사용할 수 있다.
 
-### 강의 링크
+# 강의 링크
 [스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8)
