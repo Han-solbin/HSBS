@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hellospring.service.MemberServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-26T16:16:21" hostname="hansolbins-MacBook-Air.local" time="0.031">
+  <properties/>
+  <testcase name="findOne()" classname="com.example.hellospring.service.MemberServiceTest" time="0.005"/>
+  <testcase name="중복_회원_예외()" classname="com.example.hellospring.service.MemberServiceTest" time="0.022"/>
+  <testcase name="회원가입()" classname="com.example.hellospring.service.MemberServiceTest" time="0.001"/>
+  <testcase name="findMembers()" classname="com.example.hellospring.service.MemberServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
