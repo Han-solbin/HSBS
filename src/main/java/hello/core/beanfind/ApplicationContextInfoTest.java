@@ -1,8 +1,8 @@
 package hello.core.beanfind;
 
 import hello.core.AppConfig;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -36,12 +36,12 @@ public class ApplicationContextInfoTest {
 
     @Test
     @DisplayName("인프라스트럭쳐 빈 출력하기")
-    void findApplicationBean(){
+    void findInfraStructureBean() {
         String[] beanDefinitionNames = ac.getBeanDefinitionNames();
         for (String beanDefinitionName : beanDefinitionNames) {
             BeanDefinition beanDefinition = ac.getBeanDefinition(beanDefinitionName);
 
-            if(beanDefinition.getRole() == BeanDefinition.ROLE_APPLICATION) {
+            if (beanDefinition.getRole() == BeanDefinition.ROLE_INFRASTRUCTURE) {
                 Object bean = ac.getBeanDefinitionNames();
                 System.out.println(" name= " + beanDefinitionName + "object = " + bean);
             }

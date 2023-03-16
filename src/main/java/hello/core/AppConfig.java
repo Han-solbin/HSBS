@@ -19,8 +19,15 @@ public class AppConfig {
     public MemberService memberService(){
         return new MemberServiceImpl(memberRepository());
     }
+
+    //객체의 타입은 같지만 반환받는 인스턴스가 같은 두가지 메소드
     @Bean
     public MemberRepository memberRepository() {
+        return new MemoryMemberRepository();
+    }
+
+    @Bean
+    public MemberRepository memberRepository2() {
         return new MemoryMemberRepository();
     }
     @Bean
